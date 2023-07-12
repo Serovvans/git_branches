@@ -1,9 +1,8 @@
 def str_to_upper(value: str) -> str:
     """Преобразует все буквы в заглавные"""
-    return value.upper()
+    return value.upper().strip()
 
 
 def str_to_title(value: str) -> str:
     """Преобразует первые буквы слов в заглавные"""
-    return value.title()
-
+    return value.title().strip()
